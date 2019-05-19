@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:MaskSample"  
+             xmlns:Behaviors="clr-namespace:MaskSample.Behaviors"
+             x:Class="MaskSample.MainPage">
+    <StackLayout Padding="50">
+            <Label Text="Telephone number" Margin="5" />
+            <Entry Keyboard="Numeric">
+                <Entry.Behaviors>
+                    <Behaviors:MaskedBehavior Mask="(XXX) XXX-XXXX" />
+                </Entry.Behaviors>
+            </Entry>
+        
+            <Label Text="ID"  Margin="5"/>
+                <Entry Keyboard="Numeric">
+                    <Entry.Behaviors>
+                        <Behaviors:MaskedBehavior Mask="XXX-XXXXXXX-X" />
+                    </Entry.Behaviors>
+                </Entry>
+        
+          <Label Text="Credit Card"  Margin="5"/>
+                <Entry Keyboard="Numeric">
+                    <Entry.Behaviors>
+                        <Behaviors:MaskedBehavior Mask="XXXX-XXXX-XXXX-XXXX" />
+                    </Entry.Behaviors>
+                </Entry>
+        
+        </StackLayout>
+</ContentPage>

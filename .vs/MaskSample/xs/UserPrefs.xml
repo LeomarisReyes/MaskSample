@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{0371D24C-39E9-437F-9036-C83502DA2D13}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MaskSample/MainPage.xaml">
+    <Files>
+      <File FileName="MaskSample/MainPage.xaml" Line="30" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MaskSample" expanded="True">
+            <Node name="MaskSample" expanded="True">
+              <Node name="MainPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MaskSample.Android PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MaskSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.e84e68503e92c2e08a029cb4df7bbcdd27425629" />
+</Properties>
